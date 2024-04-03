@@ -5,7 +5,7 @@ print("Last element: ", my_list[-1])
 print("Third, fourth, fifth elements: ", my_list[2:5])
 my_list[2] = 'pumpkin'
 print("Modified list: ", my_list)
-print('')       # Пустая строка для лучшей читаемости кода
+print('')       # Пустая строка для лучшей визуалициии результата
 my_dict = {'shoes': 'обувь', 'skirt': 'юбка', 'shorts': 'шорты', 'jeans': 'джинсы', 'socks': 'носки', 'coat': 'пальто'}
 print("Dictionary: ", my_dict)
 print("Translation: ", my_dict.get('shoes'))
