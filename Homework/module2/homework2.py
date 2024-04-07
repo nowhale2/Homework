@@ -50,12 +50,6 @@ if x < 0:
 else:
     z = x + y
 
-# соглашения о стиле кода
-# PEP8 (Python Enhancement Proposal 8) - описан "правильный" стиль программирования в пайтон
-# https://www.python.org/dev/peps/pep-0008/
-
-# 4 пробела на каждый уровень отступа
-
 if x < 0:
     if y > 0:
         pass
@@ -126,6 +120,12 @@ if number1 > number2:
 number3 = 9
 if number3 > 0:
     print()
+
+# соглашения о стиле кода
+# PEP8 (Python Enhancement Proposal 8) - описан "правильный" стиль программирования в пайтон
+# https://www.python.org/dev/peps/pep-0008/
+
+# 4 пробела на каждый уровень отступа
 
 # lowercase (слово в нижнем регистре)
 # lower_case_with_underscores (слова из маленьких букв с подчеркиваниями)
