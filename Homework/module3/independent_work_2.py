@@ -1,10 +1,10 @@
-def test(a, b, c):
-    print(a, b, c)
+def test(*args):
+    print(*args)
 
 
 def factorial(num):
-    if num == 1:
-        return num
+    if num == 1 or num == 0:
+        return 1
     else:
         return num * factorial(num - 1)
 
