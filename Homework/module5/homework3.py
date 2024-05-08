@@ -5,12 +5,10 @@ class Building:
         self.buildingType = '1'
 
     def __eq__(self, other):
-        return self.numberOfFloors == other.buildingType
+        return self.numberOfFloors == other.numberOfFloors and self.buildingType == other.buildingType
 
 
-House = Building()
-
-if Building.__eq__(self=House, other=House):
-    print("Строка успеха")
-# Код, написанный на 14 строчке не выполнится,
-# так как результат сравнения равен False
+House1 = Building()
+House2 = Building()
+if House1.__eq__(House2):
+    print('Они похожи')
