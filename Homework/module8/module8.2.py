@@ -27,3 +27,5 @@ except InvalidDataException as exc:
     print(f'Ошибка: {exc}')
 except ProcessingException as exc:
     print(f'Супер! {exc}')
+finally:
+    print('Код, который выполнится в любом случае')
