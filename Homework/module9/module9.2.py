@@ -28,12 +28,14 @@ print(multiply_def(2))
 
 # Задача 3: Вызываемые объекты
 class Rect:
-    def __init__(self, width):
+    def __init__(self, width, height):
         self.width = width
+        self.height = height
 
-    def __call__(self, height):
-        return f'Площадь прямоугольника, со сторонами {self.width} и {height}, равна: {self.width * height}'
+    def __call__(self):
+        return self.width * self.height
 
 
-repeat_five = Rect(5)
-print(repeat_five(3))
+repeat_five = Rect(5, 3)
+print(repeat_five())
+
